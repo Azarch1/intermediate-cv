@@ -1,0 +1,50 @@
+div {
+    background-color:#eafbea;
+    padding-top: 50px;
+    
+}
+
+h1 {
+    margin-block-start: 0em;
+    font-family: 'Sacramento', cursive;
+}
+
+
+
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+
+}
+/* 
+    .middle_container {
+        
+    }
+
+    .bottom_container {
+        
+    } */
+
+.bottomcloud {
+    position: absolute;
+}
+
+.topcloud {
+    position: relative;
+    left: 280px;
+}
+
+.picture {
+    border-radius: 100%;
+}
+
+.frontend {
+    height: 160px;
+    width: 160px;
+    border-radius: 100%;
+}
+
+.backend {
+    height: 160px;
+}
