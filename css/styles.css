@@ -1,14 +1,29 @@
-div {
+.top_container {
     background-color:#eafbea;
-    padding-top: 50px;
+    padding-top: 15px;
     
 }
 
-h1 {
-    margin-block-start: 0em;
-    font-family: 'Sacramento', cursive;
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 30px;
+    margin-top: 60px;
 }
 
+h1 {
+    font-size: 5.625rem;
+    margin-block-start: 0em;
+    font-family: 'Sacramento', cursive;
+    margin: 50px auto 0 auto;
+    color: #66BFBF;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-family: 'Merriweather', serif;
+    margin-top: 0;
+    color:#66BFBF;
+}
 
 
 body {
@@ -17,14 +32,11 @@ body {
     font-family: 'Merriweather', serif;
 
 }
-/* 
-    .middle_container {
-        
-    }
 
-    .bottom_container {
-        
-    } */
+h3  {
+    color: #66BFBF;
+
+}
 
 .bottomcloud {
     position: absolute;
@@ -37,6 +49,7 @@ body {
 
 .picture {
     border-radius: 100%;
+    margin-top: 50px;
 }
 
 .frontend {
@@ -47,4 +60,72 @@ body {
 
 .backend {
     height: 160px;
+}
+
+.btn {
+    color: #11999E;
+}
+
+.footer-link {
+    color: #11999E;
+    margin: 15px;
+}
+
+.start-style {
+    font-weight: normal;
+    line-height: 2;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.frontend {
+    float: left;
+    margin-right: 30px;
+}
+
+.backend {
+    float: right;
+    margin-right: 30px;
+}
+
+hr {
+    border-style: dotted;
+    border-width: .5rem 0 0 0;
+    width: 10%;
+    border-color: #eaf6f6;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: small;
+}
+
+.myButton {
+	box-shadow:inset 0px -3px 7px 0px #29bbff;
+	background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+	background-color:#2dabf9;
+	border-radius:9px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Merriweather', serif;
+	font-size:15px;
+	padding:11px 40px;
+	text-decoration:none;
+	margin-top: 30px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+	background-color:#0688fa;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
 }
